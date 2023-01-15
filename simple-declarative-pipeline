@@ -1,1 +1,30 @@
+Pipeline {
+  agent any
+  stages {
+    stage ('build') {
+      step {
+        echo "I am in a build stage"
+      }
+    }
+    stage ('test') {
+      step {
+        echo "I am in a test stage"
+      }
+    }
+    stage ('deploy') {
+      step {
+        echo "I am in a deploy stage"
+      }
+    }
+    stage ('archive') {
+      step {
+        echo "I am in a archive stage"
+      }
+    }
+    stage ('bye-stage') {
+      step {
+        echo "job ended bye-bye"
+      }
+    }
+}
 
