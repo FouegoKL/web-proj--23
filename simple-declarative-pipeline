@@ -1,4 +1,4 @@
-Pipeline {
+ipeline {
   agent any
   stages {
     stage ('build') {
@@ -26,5 +26,6 @@ Pipeline {
         echo "job ended bye-bye"
       }
     }
+  }
 }
 
